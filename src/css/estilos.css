@@ -1,0 +1,134 @@
+
+body{
+    margin: 0 auto;
+    width: 70vw;
+}
+
+header{
+    position: relative;
+}
+
+.fotoComentada {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    display:inline-block;
+    left: 0;
+    bottom: 2px;
+}
+
+.logoCafe{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.comentarioFoto {
+    font-family: 'BerkshireSwash';
+    color: white;
+    left: 0;
+    top: 75%;
+    position: absolute;
+    background-color:#BF571B99;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+h1{
+    font-family: 'BerkshireSwash';
+    font-weight: bold;
+}
+
+hr{
+    width: 300px;
+    height: 2px;
+    background-color: #591902;
+}
+
+.paragrafo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+
+.fotoCafe{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.textoParagrafo{
+    font-family: 'DancingScript';
+    margin: 10px;
+}
+
+.tabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+    font-size: 15px;
+}
+
+.tabelaCafe{
+    background-color: #591902;
+    color: white;
+    
+}
+
+th{
+    background-color: #F29D35;
+    border: 2px solid white;
+    font-family: 'BerkshireSwash';
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 35px;
+    
+}
+
+td{
+    background-color: #F29D35;
+    border: 2px solid white;
+    font-family: 'DancingScript';
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    height: 35px;
+}
+
+#divRodape{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#divImagens{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: 40px;
+}
+
+#divImagens img {
+    width: 30px;
+}
+
+.rodape-Paragrafo{
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 150px;
+}
